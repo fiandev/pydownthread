@@ -1,0 +1,10 @@
+[tool.isort]
+profile = "black"
+src_paths = ["lib/PyDownThread", "test"]
+honor_noqa = true
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules"
+doctest_optionflags = "NORMALIZE_WHITESPACE ELLIPSIS"
+minversion = "1.0"
+testpaths = ["tests"]

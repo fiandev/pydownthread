@@ -1,0 +1,10 @@
+__title__ = "pydownthread"
+__description__ = "Multiple files downloader for python"
+__url__ = "https://pydownthread.readthedocs.io"
+__version__ = "1.0.0"
+__build__ = 0x023203
+__author__ = "fiandev"
+__author_email__ = "fiandev@programer.net"
+__license__ = "MIT"
+__copyright__ = "Copyright Fiandev"
+__cake__ = "\ud83c\uddee\ud83c\udde9\u2665\ufe0f\ud83c\uddf5\ud83c\uddf8"
