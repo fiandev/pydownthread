@@ -1,3 +1,6 @@
+[project]
+readme = "README.md"
+
 [tool.isort]
 profile = "black"
 src_paths = ["lib/PyDownThread", "test"]
@@ -7,4 +10,3 @@ honor_noqa = true
 addopts = "--doctest-modules"
 doctest_optionflags = "NORMALIZE_WHITESPACE ELLIPSIS"
 minversion = "1.0"
-testpaths = ["tests"]
